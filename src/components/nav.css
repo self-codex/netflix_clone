@@ -1,0 +1,27 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.nav_black {
+  background-color: #111;
+}
+
+.netflix_logo {
+  position: fixed;
+  left: 20px;
+  object-fit: contain;
+  width: 110px;
+}
+.music_logo {
+  position: fixed;
+  right: 20px;
+  width: 80px;
+  object-fit: contain;
+  transition: all 0.5s ease-in-out;
+}
